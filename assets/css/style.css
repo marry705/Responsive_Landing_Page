@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+:root {
+    --back-color: #252529;
+    --light-color: #f4f4f4;
+    --primary-color: #b90415;
+    --primary-color-hover: #d3071b;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
+}
+body {
+    background-color: var(--back-color);
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: var(--light-color);
+    line-height: 1.6;
+}
+img {
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: var(--light-color);
+}
+li {
+    list-style-type: none; 
+}
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+.section {
+    padding: 2rem 0;
+}
+.section-head{
+    font-size: 2.5rem;
+    margin: 0;
+}
 .section-head::before{
     font-family: "Font Awesome 5 Free"; 
     content: "\f001";
     color: var(--color-blue-dark);
     font-weight: 700;
     padding-right: 10px;
+}
+.section h3{
+    font-size: 2rem;
 }
 .gift-cards a::before{
     font-family: "Font Awesome 5 Free"; 

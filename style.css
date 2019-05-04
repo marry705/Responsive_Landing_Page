@@ -1,0 +1,34 @@
+:root {
+    --back-color: #252529;
+    --light-color: #f4f4f4;
+    --prim-color: #b90415;
+    --prim-color-h: #d3071b;
+    --second-color: #103063;
+    --second-color-h: #143f85;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    background-color: var(--back-color);
+    margin: 0 auto;
+    color: var(--light-color);
+    line-height: 1.6;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.section-head::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f001";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.gift-cards a::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f054";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
