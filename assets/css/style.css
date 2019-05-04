@@ -1,0 +1,14 @@
+.section-head::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f001";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.gift-cards a::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f054";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
